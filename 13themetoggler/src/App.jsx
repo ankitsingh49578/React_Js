@@ -4,6 +4,8 @@ import { ThemeProvider } from "./contexts/Theme";
 import ThemeBtn from "./components/ThemeBtn";
 import Card from "./components/Card";
 
+// REMEMBER TO CHANGE IN THE tailwind.config.js file
+
 function App() {
   const [themeMode, setThemeMode] = useState("light")
   
